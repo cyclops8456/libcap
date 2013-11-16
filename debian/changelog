@@ -1,3 +1,9 @@
+libcap2 (1:2.19-3+vyatta4+hydrogen1) unstable; urgency=low
+
+  * New branch
+
+ -- Daniil Baturin <daniil@baturin.org>  Sat, 16 Nov 2013 23:34:03 +0100
+
 libcap2 (1:2.19-3+vyatta4+daisy1) unstable; urgency=low
 
   * create daisy branch
