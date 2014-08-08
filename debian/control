@@ -1,7 +1,7 @@
 Source: libcap2
 Section: libs
 Priority: optional
-Maintainer: Vyatta Package Maintainers <maintainers@vyatta.com>
+Maintainer: VyOS Package Maintainers <maintainers@vyos.net>
 Standards-Version: 3.9.0
 Build-Depends: debhelper (>= 7.0.50~), indent, libattr1-dev, libpam0g-dev
 Homepage: http://sites.google.com/site/fullycapable/
