@@ -20,3 +20,10 @@ binary-indep: install
 	dh binary-indep
 
 binary: binary-arch binary-indep
+
+override_dh_gencontrol:
+	if [ -f "../.VYOS_DEV_BUILD" ]; then \
+		dh_gencontrol -- -v999.dev; \
+	else \
+		dh_gencontrol; \
+	fi
