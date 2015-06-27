@@ -1,3 +1,10 @@
+libcap2 (1:2.19-3+vyos2+lithium2) unstable; urgency=low
+
+  [ Alex Harpin ]
+  * libcap: add dh_gencontrol to enable development builds
+
+ -- Alex Harpin <development@landsofshadow.co.uk>  Sat, 27 Jun 2015 07:15:59 +0100
+ 
 libcap2 (1:2.19-3+vyos2+lithium1) unstable; urgency=low
 
   * New branch
